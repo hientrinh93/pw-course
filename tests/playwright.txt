@@ -1,0 +1,2 @@
+Start a Playwright project:
+npm init playwright@latest

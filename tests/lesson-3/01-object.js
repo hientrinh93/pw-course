@@ -63,5 +63,7 @@ const school = {
     classB: ["Đào", "Hương", "Giang"]
 };
 
+school.
+
 console.log (school.classA);
 console.log (school.classB);
