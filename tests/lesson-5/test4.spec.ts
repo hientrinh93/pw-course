@@ -21,13 +21,13 @@ test('Add note to vnexpress', async ({ page }) => {
 
     await test.step('Add note', async () => {
         for (const note of notes){
-            page.locator("//input[@id='note-title']").fill(note.title);
-            page.locator("//textarea[@id='note-content']").fill(note.content);
-            page.click("//button[@id='add-note']");
+            await page.locator("//input[@id='note-title']").fill(note.title);
+            await page.locator("//textarea[@id='note-content']").fill(note.content);
+            await page.click("//button[@id='add-note']");
         }
     });
 
     await test.step('Thực hiện search theo tiêu đề bài báo bất kì', async() => {
-        page.locator("//input[@id='search']").fill('Thành phố');
+        await page.locator("//input[@id='search']").fill('Thành phố');
     })
 })
