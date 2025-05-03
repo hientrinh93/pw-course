@@ -13,9 +13,6 @@ numbers.forEach(num => console.log(num));
 // spread operator ... để "trải" các phần tử của mảng ra thành các đối số riêng lẻ
 // tương đương với Math.max(1, 2, 3)
 // Array (mảng) -> thường chuyên cho Array
-// String
-// Set
-// Map (entries)
 // Iterable objects (mọi thứ có thể lặp qua được bằng for...of)
 
 /************/ 
